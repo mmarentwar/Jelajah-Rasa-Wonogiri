@@ -1,0 +1,69 @@
+:root {
+    --cokelat: #5b3a1e;
+    --oranye:  #d9822b;
+    --oranye-gelap: #b96d20;
+    --krem:    #fbf6ee;
+}
+
+body { background: var(--krem); }
+
+.navbar-wonogiri { background: var(--cokelat); }
+
+.btn-wonogiri {
+    background: var(--oranye);
+    border-color: var(--oranye);
+    color: #fff;
+}
+.btn-wonogiri:hover, .btn-wonogiri:focus {
+    background: var(--oranye-gelap);
+    border-color: var(--oranye-gelap);
+    color: #fff;
+}
+
+.card { border-radius: .75rem; }
+.stat-icon { color: var(--oranye); }
+
+.table thead th {
+    background: #f3e9da;
+    color: var(--cokelat);
+    border-bottom: 0;
+}
+
+.foto-thumb {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: .5rem;
+}
+.foto-kosong {
+    width: 64px;
+    height: 64px;
+    border-radius: .5rem;
+    background: #ece3d3;
+    color: #a89677;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.judul-login { color: var(--cokelat); }
+
+.hero-wonogiri {
+    background: linear-gradient(135deg, var(--cokelat), var(--oranye));
+    color: #fff;
+}
+
+.kartu-kuliner { border-radius: .75rem; overflow: hidden; }
+
+.kartu-foto {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.kartu-foto-kosong {
+    background: #ece3d3;
+    color: #a89677;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
